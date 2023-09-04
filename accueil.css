@@ -146,12 +146,13 @@ main {
 #presentation h1 {
   font-size: 100px;
   color: #fca311;
-  margin: 0;
+  margin: 0 0 30px;
 }
 
 main h2 {
   font-size: 40px;
   font-style: italic;
+  margin-bottom: 30px;
 }
 
 .underline {
@@ -199,7 +200,7 @@ main p {
 
 .fa-solid {
   font-size: 18px;
-  justify-self: center;
+  align-self: center;
   margin-right: 10px;
 }
 
@@ -208,6 +209,8 @@ main p {
 #aboutMe h2 {
   color: #fca311;
 }
+
+/* Media Queries */
 
 @media screen and (max-width: 576px) {
   body {
