@@ -143,6 +143,10 @@ main {
   display: flex;
 }
 
+#presentation {
+  margin-right: 50px;
+}
+
 #presentation h1 {
   font-size: 100px;
   color: #fca311;
@@ -167,6 +171,7 @@ main img {
   border: solid #fca311 4px;
   box-shadow: #e5e5e5 0px 0px 150px;
   width: 400px;
+  box-sizing: border-box;
 }
 
 main aside {
@@ -206,6 +211,10 @@ main p {
 
 /* aboutMe */
 
+#aboutMe {
+  margin-bottom: 50px;
+}
+
 #aboutMe h2 {
   color: #fca311;
 }
@@ -227,6 +236,7 @@ main p {
   nav {
     position: absolute;
     visibility: hidden;
+    display: none;
   }
 
   main {
@@ -255,4 +265,23 @@ main p {
   #aboutMe h2 {
     margin-top: 30px;
   }
+}
+
+@media screen and (min-width : 577px) and (max-width: 1280px) {
+  #page {
+    padding: 0 50px;
+  }
+
+  #presentation {
+
+  }
+
+  main aside {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    left: 50%;
+    margin: -200px;
+  }
+
 }
