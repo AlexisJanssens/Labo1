@@ -141,6 +141,7 @@ nav a:hover::after {
 
 .container li {
   display: flex;
+  justify-content: space-between;
   margin: 3px 0;
 }
 
@@ -185,11 +186,93 @@ nav a:hover::after {
 
 /* main */
 
-main h2 {
-  font-size: 40px;
-  font-style: italic;
-  margin-bottom: 30px;
+main {
+  margin-top: 25px;
 }
+
+main h2 {
+  color: #fca311;
+}
+
+.underline {
+  height: 2px;
+  background-color: #fca311;
+  width: 150px;
+  margin: 25px 0px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #14213d;
+}
+
+ul {
+  margin: 20px 0;
+}
+
+.slash {
+  align-self: center;
+  font-size: 150px;
+}
+
+/* softskills */
+
+.soft {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: 327px;
+}
+
+.soft li {
+  border-radius: 25px;
+  justify-content: center;
+  background-color: #fca311;
+  color: #14213d;
+  font-weight: 400;
+  padding: 2px 10px;
+}
+
+/* skills animation */
+
+.description {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.5s ease-in;
+  transform: translateY(129px);
+
+}
+
+
+.effectiveTrigger:hover + .effective {
+  transform: translateY(129px);
+  opacity: 1;
+}
+.rigourousTrigger:hover + .rigourous {
+  transform: translateY(129px);
+  opacity: 1;
+}
+.dynamicTrigger:hover + .dynamic {
+  transform: translateY(129px);
+  opacity: 1;
+}
+.initiativeTrigger:hover + .initiative {
+  transform: translateY(129px);
+  opacity: 1;
+}
+.creativeTrigger:hover + .creative {
+  transform: translateY(129px);
+  opacity: 1;
+}
+.curiousTrigger:hover + .curious {
+  transform: translateY(129px);
+  opacity: 1;
+}
+
+
+
+
 
 /* Media Queries */
 

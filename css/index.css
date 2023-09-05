@@ -89,7 +89,6 @@ nav {
   display: flex;
   justify-content: space-between;
   font-size: 22px;
-  background-color: #14213d;
 }
 
 nav ul {
@@ -139,7 +138,7 @@ nav a:hover::after {
 /* main */
 
 main {
-  margin: 150px 0px;
+  margin: 50px 0px 100px;
   display: flex;
 }
 
@@ -254,7 +253,7 @@ main p {
   }
 
   main aside {
-    margin: 75px auto 25px;
+    margin: 25px auto 25px;
     width: 65%;
   }
 
@@ -270,10 +269,6 @@ main p {
 @media screen and (min-width : 577px) and (max-width: 1280px) {
   #page {
     padding: 0 50px;
-  }
-
-  #presentation {
-
   }
 
   main aside {
