@@ -1,22 +1,22 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    margin: 0;
-    font-family: "Raleway", sans-serif;
-    background-color: #14213d;
-    color: #e5e5e5;
-    font-size: 20px;
-    position: relative;
-  }
-  
-  #page {
-    padding: 0 100px;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  /* dropDown */
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  background-color: #14213d;
+  color: #e5e5e5;
+  font-size: 20px;
+  position: relative;
+}
+
+#page {
+  padding: 0 100px;
+}
+
+/* dropDown */
 
 .dropDown {
   visibility: hidden;
@@ -136,7 +136,6 @@ nav a:hover::after {
   transform-origin: bottom left;
 }
 
-
 /* loader animation */
 
 .container li {
@@ -148,7 +147,6 @@ nav a:hover::after {
 .fa-brands {
   margin-right: 10px;
 }
-
 
 .loader {
   min-width: 250px;
@@ -169,20 +167,15 @@ nav a:hover::after {
   top: 0;
   left: 0;
   background-color: #fca311;
-  
+
   width: 0;
   height: 100%;
   transition: width 1.2s ease-in-out;
 }
 
-
-.loader:hover > 
-.loaderInner {
+.loader:hover > .loaderInner {
   width: 75%;
-  
 }
-
-
 
 /* main */
 
@@ -192,18 +185,21 @@ main {
 
 main h2 {
   color: #fca311;
+  padding: 0 100px;
 }
 
 .underline {
   height: 2px;
   background-color: #fca311;
   width: 150px;
-  margin: 25px 0px;
+  margin: 25px 100px;
 }
 .container {
   display: flex;
   justify-content: space-between;
   background-color: #14213d;
+  padding: 0 100px;
+  margin-bottom: 100px;
 }
 
 ul {
@@ -213,6 +209,26 @@ ul {
 .slash {
   align-self: center;
   font-size: 150px;
+}
+
+.background {
+  overflow: hidden;
+  height: 250px;
+  margin-bottom: 50px;
+}
+
+.background img {
+  object-fit: cover;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+/* trainings */
+
+.trainings {
+  padding: 0px 100px 25px;
+  background-color: #14213d;
 }
 
 /* softskills */
@@ -241,9 +257,8 @@ ul {
   opacity: 0;
   transition: all 0.5s ease-in;
   transform: translateY(129px);
-
+  padding-right: 100px;
 }
-
 
 .effectiveTrigger:hover + .effective {
   transform: translateY(129px);
@@ -270,10 +285,6 @@ ul {
   opacity: 1;
 }
 
-
-
-
-
 /* Media Queries */
 
 @media screen and (max-width: 576px) {
@@ -293,10 +304,9 @@ ul {
     visibility: hidden;
     display: none;
   }
-
 }
 
-@media screen and (min-width : 577px) and (max-width: 1280px) {
+@media screen and (min-width: 577px) and (max-width: 1280px) {
   #page {
     padding: 0 50px;
   }
