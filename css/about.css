@@ -344,7 +344,6 @@ ul {
 .soft li:hover {
   transition: 1s all ease;
   background-color: #e5e5e5;
-  border;
 }
 
 .description {
@@ -378,6 +377,10 @@ ul {
 .curiousTrigger:hover + .curious {
   transform: translateY(129px);
   opacity: 1;
+}
+
+.hobbiesTxt {
+  margin-bottom: 25px;
 }
 
 /* Media Queries */

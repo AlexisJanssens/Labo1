@@ -1,46 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link rel="stylesheet" href="./css/index.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-            rel="stylesheet"
-        />
-        <script
-            src="https://kit.fontawesome.com/cf3a703950.js"
-            crossorigin="anonymous"
-        ></script>
-    </head>
-    <body>
-        <div id="page">
-            <header>
-                <div class="dropDown">
-                    <label for="touch"
-                        ><span><i class="fa-solid fa-bars"></i></span
-                    ></label>
-                    <input type="checkbox" id="touch" />
-                    <ul class="slide">
-                        <li class="first"><a href="#">home</a></li>
-                        <li><a href="#">about</a></li>
-                        <li><a href="#">portefolio</a></li>
-                        <li class="last"><a href="#">contact</a></li>
-                    </ul>
-                </div>
-                <nav>
-                    <a href="index.html">home</a>
-                    <ul>
-                        <li><a href="about.html">about</a></li>
-                        <li><a href="portfolio.html">portfolio</a></li>
-                        <li><a href="contact.html">contact</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <main></main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cf3a703950.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="page">
+      <header>
+        <div class="dropDown">
+          <label for="touch"
+            ><span><i class="fa-solid fa-bars"></i></span
+          ></label>
+          <input type="checkbox" id="touch" />
+          <ul class="slide">
+            <li class="first"><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">portefolio</a></li>
+            <li class="last"><a href="#">contact</a></li>
+          </ul>
         </div>
-    </body>
+        <nav>
+          <a href="index.html">home</a>
+          <ul>
+            <li><a href="about.html">about</a></li>
+            <li><a href="portfolio.html">portfolio</a></li>
+            <li><a href="contact.html">contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h2>My work</h2>
+        <div class="underline"></div>
+        <div class="selection">
+          <label for="pet-select">Choose a language:</label>
+          <select name="languages" id="languageSelect">
+            <option value="">Please choose a language</option>
+            <option value="javaScript">JavaScript</option>
+            <option value="ASP">ASP .Net MVC</option>
+            <option value="API">API Net Core</option>
+            <option value="Angular">Angular</option>
+            <option value="NodeJS">Node JS</option>
+            <option value="Integration IA">Integration AI</option>
+          </select>
+        </div>
+      </main>
+      <div class="project"></div>
+    </div>
+    <script src="./js/portfolio.js"></script>
+  </body>
 </html>
