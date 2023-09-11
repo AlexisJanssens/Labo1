@@ -90,7 +90,7 @@ nav {
   justify-content: space-between;
   font-size: 22px;
   background-color: #14213d;
-  padding-bottom: 25px;
+  padding: 0 100px 25px;
 }
 
 nav ul {
@@ -407,5 +407,33 @@ ul {
 @media screen and (min-width: 577px) and (max-width: 1280px) {
   #page {
     padding: 0 50px;
+  }
+
+  nav {
+    padding: 0 50px 25px;
+  }
+
+  main h2 {
+    padding: 0 50px;
+  }
+
+  .underline {
+    margin: 25px 50px;
+  }
+
+  .container {
+    padding: 0 50px 100px;
+  }
+
+  .trainings {
+    padding: 0px 50px 25px;
+  }
+
+  .experiences {
+    padding: 0 50px;
+  }
+
+  .hobbies {
+    margin: 50px 50px 100px;
   }
 }
