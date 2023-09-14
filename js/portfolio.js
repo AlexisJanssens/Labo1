@@ -40,7 +40,7 @@ languageSelect.addEventListener("change", () => {
   for (let project of filterProject) {
     const projectName = document.createElement("h2");
     projectWrapper.appendChild(projectName);
-    projectName.innerHTML = `${project.name}`;
+    projectName.innerHTML = `Project : ${project.name}`;
 
     const projectPresentation = document.createElement("p");
     projectWrapper.appendChild(projectPresentation);
