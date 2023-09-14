@@ -14,18 +14,37 @@ const projectList = [
     description: `You can see all the code here : <a href="https://github.com/AlexisJanssens/Memory.git">https://github.com/AlexisJanssens/Memory.git</a>`,
   },
   {
-    name: "testJS",
-    language: "javaScript",
-    presentation: "qsdjskh jqshd qhd kjsqhd jqhs dqsd",
-    images: [],
-    description: "kjsqlkjsd lkqjsd oqsd lqkjds",
+    name: "ohMyFood",
+    language: "HTML",
+    presentation:
+      "This is a responsive site with many CSS animations. The languages uses are HTML5 and CSS3 with Sass.",
+    images: [
+      "../img/ohMyFood1.png",
+      "../img/ohMyFood2.png",
+      "../img/ohMyFood3.png",
+    ],
+    description: `You can see all the code here : <a href="https://github.com/AlexisJanssens/Projet-3---OhMyFood-animations-CSS-.git">https://github.com/AlexisJanssens/Projet-3---OhMyFood-animations-CSS-.git</a>`,
   },
   {
-    name: "testASP",
-    language: "ASP",
-    presentation: "jqksjdlqkjsd sqlk jdlqkjs ",
-    images: [],
-    description: " qsidqosid  qiaouijl aposkdlasd ",
+    name: "kasa",
+    language: "React",
+    presentation:
+      "This is my react project, using some big fonctionnalities of react like hooks, components and styled-components",
+    images: ["../img/kasa1.png", "../img/kasa2.png", "../img/kasa3.png"],
+    description: `You can see all the code here : <a href="https://github.com/AlexisJanssens/Projet7---Kasa-React.js-.git">https://github.com/AlexisJanssens/Projet7---Kasa-React.js-.git</a>`,
+  },
+  {
+    name: "kanap",
+    language: "javaScript",
+    presentation:
+      "This is a e-shop with JS, I am using localStorage and API for datas. And we have a form using some regEx to get the customer informations ",
+    images: [
+      "../img/kanap1.png",
+      "../img/kanap2.png",
+      "../img/kanap3.png",
+      "../img/kanap4.png",
+    ],
+    description: `You can see all the code here : <a href="https://github.com/AlexisJanssens/P5-Dev-Web-Kanap-JavaScript-creation-dun-site-dynamique.git">https://github.com/AlexisJanssens/P5-Dev-Web-Kanap-JavaScript-creation-dun-site-dynamique.git</a>`,
   },
 ];
 

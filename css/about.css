@@ -207,6 +207,11 @@ ul {
   margin: 20px 0;
 }
 
+.lang {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
 .slash {
   align-self: center;
   font-size: 150px;
@@ -369,31 +374,6 @@ ul:hover + .hoverMe {
   opacity: 0;
   transition: all 0.2s ease-in-out;
 }
-
-/* .effectiveTrigger:hover + .effective {
-  transform: translateY(129px);
-  opacity: 1;
-}
-.rigourousTrigger:hover + .rigourous {
-  transform: translateY(129px);
-  opacity: 1;
-}
-.dynamicTrigger:hover + .dynamic {
-  transform: translateY(129px);
-  opacity: 1;
-}
-.initiativeTrigger:hover + .initiative {
-  transform: translateY(129px);
-  opacity: 1;
-}
-.creativeTrigger:hover + .creative {
-  transform: translateY(129px);
-  opacity: 1;
-}
-.curiousTrigger:hover + .curious {
-  transform: translateY(129px);
-  opacity: 1;
-} */
 
 .hobbiesTxt {
   margin-bottom: 25px;
