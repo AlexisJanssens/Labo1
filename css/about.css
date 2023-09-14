@@ -337,12 +337,12 @@ ul {
   color: #14213d;
   font-weight: 400;
   padding: 2px 10px;
+  transition: 1s all ease;
 }
 
 /* skills animation */
 
 .soft li:hover {
-  transition: 1s all ease;
   background-color: #e5e5e5;
 }
 
@@ -354,7 +354,23 @@ ul {
   padding-right: 100px;
 }
 
-.effectiveTrigger:hover + .effective {
+li:hover + .description {
+  transform: translateY(129px);
+  opacity: 1;
+}
+
+.hoverMe {
+  opacity: 1;
+  transition: all 1s ease-in-out;
+  transition-delay: 250ms;
+}
+
+ul:hover + .hoverMe {
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+/* .effectiveTrigger:hover + .effective {
   transform: translateY(129px);
   opacity: 1;
 }
@@ -377,14 +393,35 @@ ul {
 .curiousTrigger:hover + .curious {
   transform: translateY(129px);
   opacity: 1;
-}
+} */
 
 .hobbiesTxt {
   margin-bottom: 25px;
 }
 
 /* Media Queries */
+@media screen and (max-width: 346px) {
+  .description {
+    padding-right: 10px;
+    transform: translateY(129px) translateX(-100%);
+  }
 
+  li:hover + .description {
+    transform: translateY(129px) translateX(0);
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 347px) and (max-width: 576px) {
+  .description {
+    padding-right: 10px;
+    transform: translateY(89px) translateX(-100%);
+  }
+
+  li:hover + .description {
+    transform: translateY(89px) translateX(0);
+    opacity: 1;
+  }
+}
 @media screen and (max-width: 576px) {
   body {
     width: 100%;
@@ -401,6 +438,73 @@ ul {
     position: absolute;
     visibility: hidden;
     display: none;
+  }
+
+  .title {
+    padding-bottom: 0;
+  }
+
+  article.container {
+    padding: 0 10px;
+    flex-direction: column;
+  }
+
+  main h2 {
+    padding: 60px 10px 0;
+  }
+
+  .underline {
+    margin: 25px 10px;
+  }
+
+  .slash {
+    display: none;
+  }
+
+  .container li {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .loader {
+    margin: 0 0 15px 0;
+  }
+
+  .loader p {
+    text-align: center;
+  }
+
+  .technicalSkills {
+    margin-top: 150px;
+  }
+
+  .background {
+    height: 200px;
+  }
+
+  .second {
+    padding: 0;
+  }
+
+  .trainings {
+    padding: 0 10px 25px;
+  }
+
+  .experiences {
+    padding: 0 10px;
+  }
+
+  .exp {
+    padding-top: 0;
+  }
+
+  .hob {
+    margin-top: 0;
+  }
+
+  .hobbies {
+    margin: 0;
+    padding: 0 10px;
   }
 }
 
@@ -423,6 +527,25 @@ ul {
 
   .container {
     padding: 0 50px 100px;
+    flex-direction: column;
+  }
+
+  .slash {
+    display: none;
+  }
+
+  .technicalSkills {
+    margin-top: 100px;
+  }
+
+  .description {
+    padding-right: 10px;
+    transform: translateY(89px);
+  }
+
+  li:hover + .description {
+    transform: translateY(89px);
+    opacity: 1;
   }
 
   .trainings {
