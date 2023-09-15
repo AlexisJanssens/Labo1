@@ -178,6 +178,14 @@ nav a:hover::after {
   width: 75%;
 }
 
+.activeLoader {
+  width: 75% !important;
+}
+
+.clickP {
+  display: none;
+}
+
 /* main */
 
 main h2 {
@@ -326,6 +334,12 @@ ul {
   opacity: 1;
 }
 
+.hobbieActive {
+  max-width: 200px;
+  margin-left: 10px;
+  opacity: 1;
+}
+
 /* softskills */
 
 .soft {
@@ -350,6 +364,10 @@ ul {
 .soft li:hover {
   background-color: #e5e5e5;
 }
+
+/* .active {
+  background-color: #e5e5e5 !important;
+} */
 
 .description {
   position: absolute;
@@ -390,6 +408,18 @@ ul:hover + .hoverMe {
     transform: translateY(129px) translateX(0);
     opacity: 1;
   }
+
+  .description {
+    display: none;
+  }
+
+  .hoverMe {
+    display: none;
+  }
+
+  .technicalSkills {
+    margin-top: 0 !important;
+  }
 }
 @media screen and (min-width: 347px) and (max-width: 576px) {
   .description {
@@ -400,6 +430,18 @@ ul:hover + .hoverMe {
   li:hover + .description {
     transform: translateY(89px) translateX(0);
     opacity: 1;
+  }
+
+  .description {
+    display: none;
+  }
+
+  .hoverMe {
+    display: none;
+  }
+
+  .technicalSkills {
+    margin-top: 0 !important;
   }
 }
 @media screen and (max-width: 576px) {
@@ -448,6 +490,14 @@ ul:hover + .hoverMe {
 
   .loader {
     margin: 0 0 15px 0;
+  }
+
+  .hoverP {
+    display: none;
+  }
+
+  .clickP {
+    display: block;
   }
 
   .loader p {
